@@ -2,8 +2,11 @@ import os
 from aiogram import Bot, Dispatcher
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
-# قراءة التوكن من متغيرات البيئة التي ضبطتها في Railway
-TOKEN = os.environ.get("TOKEN")
+# جرب هذه الطريقة التي ستجبر الكود على أخذ القيمة أو التوقف بخطأ واضح إذا كانت فارغة
+TOKEN = os.getenv("TOKEN")
+
+if not TOKEN:
+    raise ValueError("لم يتم العثور على المتغير TOKEN! تأكد من إضافته في إعدادات Railway.")
 
 bot = Bot(token=TOKEN)
 storage = MemoryStorage()
