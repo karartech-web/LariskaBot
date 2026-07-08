@@ -1,10 +1,10 @@
 #file: noinspection YAMLSchemaValidation
-skirmish: Милорды, не начинайте срач пожалуйста!
-hello: Привет, дорогуша!
-start_here: Начни отсюда:\nhttps://github.com/OldCodersClub/faq
-start_video: Или отсюда:\nhttps://www.youtube.com/watch?v=_PfQvdDq_bY
-message_links: Там много полезных ссылок под видео.
-#lariska_bot: Да. Я бот.\nВот репозиторий:\nhttps://github.com/OldCodersClub/LariskaBot
-#forks: Можете форкать, реквестить и деплоить
-flood_reply: Помедленнее, дорогуша!\nЯ записываю...
-welcome: Привет!\nЯ Лариска - бот из Клуба дедов-программистов.\nВсе мои команды секретные.\nИх можно только в репе посмотреть:\nhttps://github.com/OldCodersClub/LariskaBot
+skirmish: 'يا سادة، من فضلكم لا تبدأوا جدالاً!'
+hello: 'مرحباً عزيزي!'
+start_here: 'ابدأ من هنا:\nhttps://github.com/OldCodersClub/faq'
+start_video: 'أو من هنا:\nhttps://www.youtube.com/watch?v=_PfQvdDq_bY'
+message_links: 'توجد الكثير من الروابط المفيدة تحت الفيديو.'
+#lariska_bot: 'نعم، أنا بوت.\nإليك المستودع:\nhttps://github.com/OldCodersClub/LariskaBot'
+#forks: 'يمكنكم إجراء Fork أو Pull Request أو Deploy'
+flood_reply: 'أبطئ قليلاً يا عزيزي!\nأنا أسجل...'
+welcome: 'مرحباً!\nأنا لاريسكا - بوت من نادي المبرمجين القدامى.\nكل أوامري سرية.\nيمكنكم رؤيتها فقط في المستودع:\nhttps://github.com/OldCodersClub/LariskaBot'
