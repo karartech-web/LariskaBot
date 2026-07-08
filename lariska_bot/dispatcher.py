@@ -1,8 +1,9 @@
+import os
 from aiogram import Bot, Dispatcher
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
-from lariska_bot import TOKEN
-
+# قراءة التوكن من متغيرات البيئة التي ضبطتها في Railway
+TOKEN = os.getenv("TOKEN") 
 
 bot = Bot(token=TOKEN)
 storage = MemoryStorage()
