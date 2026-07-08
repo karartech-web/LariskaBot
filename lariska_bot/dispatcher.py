@@ -3,7 +3,7 @@ from aiogram import Bot, Dispatcher
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
 # قراءة التوكن من متغيرات البيئة التي ضبطتها في Railway
-TOKEN = os.getenv("TOKEN") 
+TOKEN = os.environ.get("TOKEN")
 
 bot = Bot(token=TOKEN)
 storage = MemoryStorage()
